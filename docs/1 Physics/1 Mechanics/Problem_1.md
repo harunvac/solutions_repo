@@ -8,6 +8,7 @@ R = \frac{v_0^2 \sin(2\theta)}{g}
 \]
 
 where:
+
 - \( g \) is the acceleration due to gravity (9.81 m/s² on Earth),
 - \( v_0 \) is the initial velocity,
 - \( \theta \) is the launch angle.
