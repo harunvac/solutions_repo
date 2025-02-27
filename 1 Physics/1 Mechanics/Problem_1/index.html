@@ -48,6 +48,14 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#1-theoretical-background">1. Theoretical Background</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-key-insights">2. Key Insights</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-simple-simulation">3. Simple Simulation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#observations">Observations:</a>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -172,7 +180,30 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
-<p>test    </p>
+<h3 id="1-theoretical-background"><strong>1. Theoretical Background</strong></h3>
+<p>The range <span class="arithmatex">\( R \)</span> of a projectile launched at an initial velocity <span class="arithmatex">\( v_0 \)</span> and angle <span class="arithmatex">\( \theta \)</span> (from horizontal) in a vacuum is given by the equation:</p>
+<div class="arithmatex">\[
+R = \frac{v_0^2 \sin(2\theta)}{g}
+\]</div>
+<p>where:
+- <span class="arithmatex">\( g \)</span> is the acceleration due to gravity (9.81 m/s² on Earth),
+- <span class="arithmatex">\( v_0 \)</span> is the initial velocity,
+- <span class="arithmatex">\( \theta \)</span> is the launch angle.</p>
+<h3 id="2-key-insights"><strong>2. Key Insights</strong></h3>
+<ul>
+<li>The range is <strong>maximum at</strong> <span class="arithmatex">\( \theta = 45^\circ \)</span>.</li>
+<li>The function <span class="arithmatex">\( \sin(2\theta) \)</span> is <strong>symmetric</strong> around <span class="arithmatex">\( 45^\circ \)</span>, meaning that an angle of <span class="arithmatex">\( 30^\circ \)</span> and <span class="arithmatex">\( 60^\circ \)</span> will give the same range.</li>
+<li>If air resistance is ignored, the only factors affecting range are <span class="arithmatex">\( v_0 \)</span> and <span class="arithmatex">\( g \)</span>.</li>
+</ul>
+<h3 id="3-simple-simulation"><strong>3. Simple Simulation</strong></h3>
+<p>Let's visualize this relationship by plotting the range <span class="arithmatex">\( R \)</span> as a function of <span class="arithmatex">\( \theta \)</span>. I'll generate a quick graph.</p>
+<p>Here’s the plot showing how the range varies with the angle of projection. </p>
+<h3 id="observations"><strong>Observations:</strong></h3>
+<ul>
+<li>The range increases up to <strong>45°</strong>, reaching its maximum.</li>
+<li>The range then <strong>decreases symmetrically</strong> beyond 45°.</li>
+<li>The same range is obtained for <strong>complementary angles</strong> (e.g., 30° and 60° give the same range).</li>
+</ul>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
