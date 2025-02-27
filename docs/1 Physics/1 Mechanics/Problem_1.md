@@ -28,5 +28,6 @@ Here’s the plot showing how the range varies with the angle of projection.
 - The range then **decreases symmetrically** beyond 45°.
 - The same range is obtained for **complementary angles** (e.g., 30° and 60° give the same range).
 
+![alt text](image.png)
 
 
